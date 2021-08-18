@@ -26,8 +26,8 @@ public class TravellingSalesmanProblem {
         //all roads lead out from apache
         deliveries.add(new Delivery(0, "Apache", 0, 53.38133, -6.59299));
 
-        //sample data is the excel sample data file shared be professor, file converted to csv and read in from desktop
-        File f = new File("C:\\Users\\jpsho\\Desktop\\leaner-data.csv");
+        //sample data is the excel sample data file shared by professor, file converted to csv and read in from desktop
+        File f = new File(path\\to\\.csv);
 
         //we take in the csv file and add each line to a String array list
 
@@ -43,15 +43,7 @@ public class TravellingSalesmanProblem {
         for(int i = 0; i < list.size(); i++){
             System.out.println(list.get(i));
         }
-
-        //int count = 0;
-        //            for(int i = 0; i < elements.length; i++){
-        //                for(String in : elements[i].split(",")){
-        //                    elementList[count] = in;
-        //                    count++;
-        //                }
-        //            }
-
+        
         //size of string array for individual elements must be list by 5, as we need 5 elements per object later, 5 cols per row
         String[] elementList = new String[list.size()*5];
 
