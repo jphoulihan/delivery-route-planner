@@ -23,14 +23,16 @@ Following OOP Principles I created a delivery class. For each order that is inge
 * Latitude <br/>
 
 I created a Route class. Objects from this class contain the following fields: <br />
-*row
-*col
-*time taken<br />
+* row
+* col
+* time taken
+<br /><br />
 
 ![alt text](code-ex.png "route class")<br/><br><br/><br/>
 
 
 With these objects I created a time matrix calculating the travel time between two locations with a Haversine method. The matrix takes each row as an origin and calculates the distance from that origin to the next column until the end of the row. Row number represents origin, the next stop on the route is represented by the column number.
+<br/><br />
 
 ![alt text](route-ex.png "route time matrix")<br/><br/>
 
