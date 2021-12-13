@@ -26,8 +26,8 @@ public class TravellingSalesmanProblem {
         //all roads lead out from apache
         deliveries.add(new Delivery(0, "Apache", 0, 53.38133, -6.59299));
 
-        //sample data is the excel sample data file shared by professor, file converted to csv and read in from desktop
-        File f = new File(path\\to\\.csv);
+        //file converted to csv and read in from desktop
+        File f = new File("/home/test-data.csv");
 
         //we take in the csv file and add each line to a String array list
 
@@ -158,6 +158,11 @@ public class TravellingSalesmanProblem {
         double angleB = Math.toRadians(Y.lat);
         double theta = Math.toRadians(Y.lat - X.lat);
         double lambda = Math.toRadians(Y.lon - X.lon);
+
+        System.out.println(angleA);
+        System.out.println(angleB);
+        System.out.println(theta);
+        System.out.println(lambda);
 
         double temp = Math.pow(Math.sin(theta / 2.0), 2) + Math.cos(angleA) * Math.cos(angleB) *
                 Math.pow(Math.sin(lambda / 2.0), 2);
