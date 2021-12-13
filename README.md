@@ -38,7 +38,7 @@ With these objects I created a time matrix calculating the travel time between t
 
 This unsorted time matrix  is passed into a helper sorting method, the output is a sorted 2D array in ascending order according to shortest delivery time between the locations in the rows. 
 
-The final step is to traverse the 2D array with the Nearest Neighbour approach and at each point add that deliveries order number to an array. This array of order numbers is the one that should be followed to complete the delivery route efficiently. 
+The final step is to traverse the 2D array with the Nearest Neighbour approach and at each point add that delivery's order number to an array. This array of order numbers is the one that should be followed to complete the delivery route efficiently. 
 
 # **To Run This Project**
 
