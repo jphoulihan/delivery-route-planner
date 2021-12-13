@@ -61,11 +61,11 @@ $ git clone https://github.com/jphoulihan/delivery-route-planner.git
 # **Future Development**
 ### Currently converting this java solution to python
 ### Use Matplotlib library to animate the route in the clients GUI
-<br />
+<br/>
 
 * This GUI should also include a visual reprentation of the order address at each point
 * The total time taken to complete the route should also be outputed
-
+<br/>
 ## Other Variables To Consider
 * The time passed since an order has been placed needs to be considered in the delivery route in order to minimize the number of unhappy customers 
 
